@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h2{
+    color:#94d2ee;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 40px auto;
+}
+
+.wrapper img{
+    width: 50%;
+    float: right;
+    margin: 25px;
+}
+
+@media (max-width: 560px) {
+    .wrapper img{
+        width: 100%;
+        
+    }
+
+    h2{
+        color:#94eea7;
+        font-weight: bold;
+        font-size: 32px;
+        
+    }
+}
